@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Oleg Lobanov](https://up.htmlacademy.ru/htmlcss/36/user/1333533).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Колотович](https://htmlacademy.ru/profile/id225353).
 
 ---
 

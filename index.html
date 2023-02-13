@@ -16,144 +16,146 @@
 
       </a>
       <form class="appointment-form" action="#" method="get">
-        <label class="form-label" for="search-form-input"> Поле поиска</label>
-        <input type="text" id="appointment-form-imput" name="search-input" placeholder="Поиск по сайту">
+        <label class="visually-hidden" for="search-form-input"> Ведите название товаров</label>
+        <input type="text" id="search-form-input" name="search-input" placeholder="Поиск по сайту">
         <button class="button" type="button search-button">Найти </button>
         <a href="#">
           <img class="enter" href="">Вход
         </a>
 
       </form>
-      <div>
-        <a class="compare" href="compare.html">Сравнить</a>
-      </div>
+
+      <a class="compare" href="compare.html">Сравнить</a>
+
       <!-- Делаем кнопку корзины -->
+
+      <span id="Number">2</span>
+      <button class="button" type="button"> Корзина
+      </button>
+
+      <ul class="item">
+        <!-- Александр ,я картинки тут уже указал с третьей главы ,я просто их внесу в файл images и сдам на задание 3 главы  -->
+        <li>
+          <div class="card-item">
+            <img class="item-one" src="images/basket/amateur-selfie-stick.png" width="39" height="43" alt="Товар один">
+            <p class="items">Любительская селфи-палка</p>
+            <button type="button">
+              <span class="visually-hidden">Удалить товар</span>
+            </button>
+          </div>
+        </li>
+        <div class="card-item">
+          <img class="item-two" src="images/basket/professional-selfie-stick.png" width="39" height="43"
+            alt="Товар один">
+          <p class="items">Профессиональная селфи-палка</p>
+          <button type="button">
+            <span class="visually-hidden">Удалить товар</span>
+          </button>
+        </div>
+      </ul>
+      <div class="annotation">
+        <span class="annotation-one">
+          Товаров: 2
+        </span>
+        <span class="annotation-two">
+          Сумма: 2000 ₽
+        </span>
+
+        <button type="button">Открыть корзину</button>
+
+      </div>
+
       <div>
-        <span id="Number">2</span>
-        <button class="button" type="button"> Корзина
-        </button>
-        <div>
-          <ul class="item">
-            <!-- Александр ,я картинки тут уже указал с третьей главы ,я просто их внесу в файл images и сдам на задание 3 главы  -->
-            <li>
-              <div class="card-item">
-                <img class="item-one" src="images/basket/amateur-selfie-stick.png" width="39" height="43"
-                  alt="Товар один">
-                <p class="items">Любительская селфи-палка</p>
-                <button type="button">
-                  <span class="visually-hidden">Удалить товар</span>
-                </button>
+        <nav class="secondmenu">
+          <ul class="secondmenu-list">
+            <li class="secondmenu-item">
+              <button class="button">Каталог товаров</button>
+
+              <div class="catalog-menu">
+                <ul class="catalog-menu-list column-1">
+                  <li>
+                    <a href="#">Виртуальная реальность</a>
+                  </li>
+                  <li>
+                    <a href="catalog.html">Моноподы для cелфи</a>
+                  </li>
+                  <li href="#">Экшн-камеры</li>
+                </ul>
+                <ul class="catalog-menu-list column-2">
+                  <li>
+                    <a href="#">Умные часы</a>
+                  </li>
+                  <li>
+                    <a href="#">Фитнес-браслеты</a>
+                  </li>
+                </ul>
+                <ul class="catalog-menu-list column-3">
+                  <li>
+                    <a href="#">Квадрокоптеры</a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <div class="card-item">
-              <img class="item-two" src="images/basket/professional-selfie-stick.png" width="39" height="43"
-                alt="Товар один">
-              <p class="items">Профессиональная селфи-палка</p>
-              <button type="button">
-                <span class="visually-hidden">Удалить товар</span>
-              </button>
-            </div>
+            <li class="secondmenu-item">
+              <a class="secondmenu-link" href="guarantee.html">Доставка</a>
+            </li>
+            <li class="secondmenu-item">
+              <a class="secondmenu-link" href="guarantee.html">Гарантия</a>
+            </li>
+            <li class="secondmenu-item">
+              <a class="secondmenu-link" href="contacts.html">Контакты</a>
+            </li>
           </ul>
-          <div class="annotation">
-            <span class="annotation-one">
-              Товаров: 2
-            </span>
-            <span class="annotation-two">
-              Сумма: 2000 ₽
-            </span>
-
-            <button type="button">Открыть корзину</button>
-
-          </div>
-
-          <div>
-            <nav class="secondmenu">
-              <ul class="secondmenu-list">
-                <li class="secondmenu-item">
-                  <button class="button">Каталог товаров</button>
-
-                  <div class="catalog-menu">
-                    <ul class="catalog-menu-list column-1">
-                      <li>
-                        <a href="#">Виртуальная реальность</a>
-                      </li>
-                      <li>
-                        <a href="catalog.html">Моноподы для cелфи</a>
-                      </li>
-                      <li href="#">Экшн-камеры</li>
-                    </ul>
-                    <ul class="catalog-menu-list column-2">
-                      <li>
-                        <a href="#">Умные часы</a>
-                      </li>
-                      <li>
-                        <a href="#">Фитнес-браслеты</a>
-                      </li>
-                    </ul>
-                    <ul class="catalog-menu-list column-3">
-                      <li>
-                        <a href="#">Квадрокоптеры</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="secondmenu-item">
-                  <a class="secondmenu-link" href="guarantee.html">Доставка</a>
-                </li>
-                <li class="secondmenu-item">
-                  <a class="secondmenu-link" href="guarantee.html">Гарантия</a>
-                </li>
-                <li class="secondmenu-item">
-                  <a class="secondmenu-link" href="contacts.html">Контакты</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+        </nav>
+      </div>
     </header>
     <!-- Ну,начинаем ваять слайдер,пишу так ,как  понял и как делаю! -->
     <div class="sim-slider">
       <ul class="sim-slider-list">
 
         <li>
-          <div class="сopter">
-            <!-- фоновую картинку с коптером и номером 01 обыграем в стиле секции с background-image  -->
-            <h2 class="visually">Порхает как бабочка,
-              жалит как пчела!
-            </h2>
-            <p class="visually-1">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
-              замаскированным под
-              стандартную камеру
-            </p>
-            <!-- решил пойти через таблицу -->
-            <a class="button" href="#">ПОДРОБНЕЕ </a>
-            <table border="0" style="border: 1 px;">
-              <tr>
-                <td>
-                  800 м
-                </td>
-                <td>
-                  50 м
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Дальность полета
-                </td>
-                <td>
-                  Радиус поражения
-                </td>
-              </tr>
-            </table>
-          </div>
+          <p class="visually-hidden">Красивый и большой квадракоптер</p>
+
+          <!-- фоновую картинку с коптером и номером 01 обыграем в стиле секции с background-image  -->
+          <p class="sim-slider-title">Порхает как бабочка,
+            жалит как пчела!
+          </p>
+          <p class="sim-slider-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+            замаскированным под
+            стандартную камеру
+          </p>
+          <!-- решил пойти через таблицу -->
+          <a class="button" href="#">ПОДРОБНЕЕ </a>
+          <table border="0" style="border: 1 px;">
+            <tr>
+              <td>
+                800 м
+              </td>
+              <td>
+                50 м
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Дальность полета
+              </td>
+              <td>
+                Радиус поражения
+              </td>
+            </tr>
+          </table>
+
         </li>
         <!-- это был первый контейнер -->
         <li>
-          <div class="bracelet">
+          <div class="sim-slider">
             <!-- фоновую картинку с браслетом и номером 02 обыграем в стиле секции с background-image  -->
-            <h2 class="visually">Худеем
+            <p class="visually-hidden">Красивый фитнесбраслет</p>
+            <p class="sim-slider-title">Худеем
               правильно!
-            </h2>
-            <p class="visually-1">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и
+            </p>
+            <p class="sim-slider-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать
+              занятия и
               соблюдать
               диету.
             </p>
@@ -174,11 +176,13 @@
         </li>
         <!-- это был второй контейнер -->
         <li>
-          <div class="stick">
+          <div class="sim-slider">
             <!-- фоновую картинку с палкой и номером 03 обыграем в стиле секции с background-image  -->
-            <h2 class="visually">Делай селфи,как Бен Стиллер!
-            </h2>
-            <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!)
+            <p class="visually-hidden">Здоровенная селфи-палка</p>
+            <p class="sim-slider-title">Делай селфи,как Бен Стиллер!
+            </p>
+            <p class="sim-slider-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь,
+              Карл!)
               метров
               длиной и весом всего 5 кг.
             </p>
@@ -274,42 +278,6 @@
       </nav>
       <!--Делаем слайдер доставки -->
       <div class="sim-slider">
-        <ul class="sim-slider-list">
-          <li>
-            <div class="delivery">
-              <!-- фоновую картинку с человечком обыграем в  с background-image  -->
-              <h2 class="visually">Доставка
-              </h2>
-              <p class="visually-1">Мы с удовольствием доставим ваш товар прямо
-                к вашему подъезду совершенно бесплатно! Ведь
-                мы неплохо заработаем, поднимая его на ваш этаж
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="guarantee">
-              <!-- фоновую картинку с человечком обыграем в  с background-image  -->
-              <h2 class="visually">Гарантия
-              </h2>
-              <p class="visually-1">Если из-за возгорания купленного у нас товара у вас
-                сгорит дом — не переживайте, мы выдадим вам новый.
-                Товар, не дом, конечно же
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="сredit">
-              <!-- фоновую картинку с человечком обыграем в  с background-image  -->
-              <h2 class="visually">Кредит
-              </h2>
-              <p class="visually-1">Залезть в долговую яму стало проще!
-                Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
-                Выгодные для банка, разумеется.
-              </p>
-            </div>
-          </li>
-        </ul>
-
         <button class="button" type="button">Доставка
         </button>
 
@@ -319,14 +287,49 @@
 
         <button class="button" type="button">Кредит
         </button>
+        <ul class="sim-slider-list">
+          <li>
 
+            <!-- фоновую картинку с человечком обыграем в  с background-image  -->
+            <h2 class="visually">Доставка
+            </h2>
+            <p class="visually-1">Мы с удовольствием доставим ваш товар прямо
+              к вашему подъезду совершенно бесплатно! Ведь
+              мы неплохо заработаем, поднимая его на ваш этаж
+            </p>
+
+          </li>
+          <li>
+
+            <!-- фоновую картинку с человечком обыграем в  с background-image  -->
+            <h2 class="visually">Гарантия
+            </h2>
+            <p class="visually-1">Если из-за возгорания купленного у нас товара у вас
+              сгорит дом — не переживайте, мы выдадим вам новый.
+              Товар, не дом, конечно же
+            </p>
+
+          </li>
+          <li>
+
+            <!-- фоновую картинку с человечком обыграем в  с background-image  -->
+            <h2 class="visually">Кредит
+            </h2>
+            <p class="visually-1">Залезть в долговую яму стало проще!
+              Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
+              Выгодные для банка, разумеется.
+            </p>
+
+          </li>
+        </ul>
       </div>
       <div>
         <button class="button">
-          <!-- фоновую картинку с браслетом и номером 02 обыграем в стиле секции с background-image  -->
           <p class="visually">Доставим редкий товар под заказ,</p>
-          <img class="" src="" alt="Car">
-          <img class="" src="" alt="Button i">
+
+        </button>
+        <button class="button">
+          i
         </button>
       </div>
       <section class="about">
@@ -336,35 +339,55 @@
         <p class="about-subtitle">Мы можем доставить ваш товар в самые отдалённые уголки России транспортными
           компаниями:</p>
 
-        <nav class="transport">
 
-          <ul class="transport-list">
-            <li class="transport-item">
-              <a class="transport-link" href="#">Меловые линии</a>
-            </li>
-            <li class="transport-item">
-              <a class="transport-link" href="#">СДИК</a>
-            </li>
-            <li class="transport-item">
-              <a class="transport-link" href="#">ТоксБерри</a>
-            </li>
-          </ul>
-          <a class="button" href="#">ПОДРОБНЕЕ О НАС</a>
-        </nav>
+
+        <ul class="transport-list">
+          <li class="transport-item">
+            <a class="transport-link" href="#">Меловые линии</a>
+          </li>
+          <li class="transport-item">
+            <a class="transport-link" href="#">СДИК</a>
+          </li>
+          <li class="transport-item">
+            <a class="transport-link" href="#">ТоксБерри</a>
+          </li>
+        </ul>
+        <a class="button" href="#">ПОДРОБНЕЕ О НАС</a>
+
 
       </section>
       <section class="contacts">
         <h2 class="about-title">Контакты</h2>
         <p class="contacts-address-text">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить
           работоспособность покупки.</p>
-        <p class="contacts-subtitle">Интернет -магазин Девайс </p>
+        <h3 class="contacts-subtitle">Интернет -магазин Девайс </h3>
         <address>
-          <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+
+          <span class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</span>
           <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
         </address>
-        <p class="contacts-subtitle">Время работы</p>
-        <p class="contacts-address-text">пн—пт: с 10:00 до 22:00 </p>
-        <p class="contacts-address-text">сб—вс: с 10:00 до 19:00</p>
+        <h3 class="contacts-subtitle">Время работы</h3>
+        <table border="0" style="border: 1 px;">
+          <tr>
+            <td>
+              пн—пт:
+            </td>
+            <td>
+              с 10:00 до 22:00
+            </td>
+          </tr>
+          <tr>
+            <td>
+              сб—вс:
+            <td>
+              10:00 до 19:00
+            </td>
+
+          </tr>
+        </table>
+
+        <!-- <p class="contacts-address-text">пн—пт: с 10:00 до 22:00 </p>
+        <p class="contacts-address-text">сб—вс: с 10:00 до 19:00</p> -->
         <a class="button" href="#">Напишите нам</a>
       </section>
       <section class="contacts">
@@ -374,7 +397,7 @@
           длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё. </p>
 
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="form-label" for="appointment-mail">Подписаться</label>
+          <label class="form-label" for="appointment-mail">Напишите свой e-mail</label>
           <input type="email" id="appointment-mail" name="appointment-mail" placeholder="Ваш e-mail">
           <button class="button" type="submit">Подписаться </button>
           <p class="contacts-address-text">Это бесплатно </p>
@@ -391,35 +414,41 @@
 
         </address>
       </section>
-      <ul class="secondmenu-item">
-        <li class="secondmenu-item">
-          <button class="button">Доставка</button>
-        </li>
-        <li class="secondmenu-item">
-          <a class="secondmenu-link" href="Guarantee.html">Гарантия</a>
-        </li>
-        <li class="secondmenu-item">
-          <a class="secondmenu-link" href="Contacts.html">Контакты</a>
-        </li>
-      </ul>
-      <ul class="footer-social-list">
-        <li class="footer-social-item">
-          <a class="button" href="#">
-            <span class="visually-hidden">Телеграм</span>
-          </a>
-        </li>
-        <li class="footer-social-item">
-          <a class="button" href="#">
-            <span class="visually-hidden">Ютуб</span>
-          </a>
-        </li>
-        <li class="footer-social-item">
-          <a class="button" href="#">
-            <span class="visually-hidden">Твиттер</span>
-          </a>
-        </li>
-      </ul>
+      <section class="footer-delivery">
+        <h2 class="visually-hidden">Доставка Гарантия Контакты</h2>
+        <ul class="secondmenu-item">
+          <li class="secondmenu-item">
+            <a class="secondmenu-link" href="Delivery.html">Доставка</a>
+          </li>
+          <li class="secondmenu-item">
+            <a class="secondmenu-link" href="Guarantee.html">Гарантия</a>
+          </li>
+          <li class="secondmenu-item">
+            <a class="secondmenu-link" href="Contacts.html">Контакты</a>
+          </li>
+        </ul>
       </section>
+      <section class="social-media">
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Телеграм</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a class="button" href="#">
+              <span class="visually-hidden">Твиттер</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
 
       <section class="footer-social"><a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
         <p class="about-text"> <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>

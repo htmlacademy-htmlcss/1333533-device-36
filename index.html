@@ -33,26 +33,23 @@
       <button class="button" type="button"> Корзина
       </button>
 
-      <ul class="item">
-        <!-- Александр ,я картинки тут уже указал с третьей главы ,я просто их внесу в файл images и сдам на задание 3 главы  -->
-        <li>
-          <div class="card-item">
-            <img class="item-one" src="images/basket/amateur-selfie-stick.png" width="39" height="43" alt="Товар один">
-            <p class="items">Любительская селфи-палка</p>
-            <button type="button">
-              <span class="visually-hidden">Удалить товар</span>
-            </button>
-          </div>
-        </li>
-        <div class="card-item">
-          <img class="item-two" src="images/basket/professional-selfie-stick.png" width="39" height="43"
-            alt="Товар один">
+      <dl class="item">
+        <div class="item-card">
+          <img class="" src="" width="39" height="" alt="Товар один">
+          <p class="items">Любительская селфи-палка</p>
+          <button type="button">
+            <span class="visually-hidden">Удалить товар</span>
+          </button>
+        </div>
+
+        <div class="item-card">
+          <img class="" src="" width="39" height="43" alt="Товар один">
           <p class="items">Профессиональная селфи-палка</p>
           <button type="button">
             <span class="visually-hidden">Удалить товар</span>
           </button>
         </div>
-      </ul>
+      </dl>
       <div class="annotation">
         <span class="annotation-one">
           Товаров: 2
@@ -109,116 +106,123 @@
         </nav>
       </div>
     </header>
-    <!-- Ну,начинаем ваять слайдер,пишу так ,как  понял и как делаю! -->
-    <div class="sim-slider">
-      <ul class="sim-slider-list">
+    <main class="main-index">
+      <!-- Ну,начинаем ваять слайдер,пишу так ,как  понял и как делаю! -->
+      <div class="sim-slider">
+        <ul class="sim-slider-list">
 
-        <li>
-          <p class="visually-hidden">Красивый и большой квадракоптер</p>
+          <li>
+            <p class="visually-hidden">Красивый и большой квадракоптер</p>
+            <img class="slider-image" src="#" alt="Красивый коптер с белой краской.">
+            <h2 class="sim-slider-title">Порхает как бабочка,
+              жалит как пчела!
+            </h2>
 
-          <!-- фоновую картинку с коптером и номером 01 обыграем в стиле секции с background-image  -->
-          <p class="sim-slider-title">Порхает как бабочка,
-            жалит как пчела!
-          </p>
-          <p class="sim-slider-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
-            замаскированным под
-            стандартную камеру
-          </p>
-          <!-- решил пойти через таблицу -->
-          <a class="button" href="#">ПОДРОБНЕЕ </a>
-          <table border="0" style="border: 1 px;">
-            <tr>
-              <td>
-                800 м
-              </td>
-              <td>
-                50 м
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Дальность полета
-              </td>
-              <td>
-                Радиус поражения
-              </td>
-            </tr>
-          </table>
-
-        </li>
-        <!-- это был первый контейнер -->
-        <li>
-          <div class="sim-slider">
-            <!-- фоновую картинку с браслетом и номером 02 обыграем в стиле секции с background-image  -->
-            <p class="visually-hidden">Красивый фитнесбраслет</p>
-            <p class="sim-slider-title">Худеем
-              правильно!
+            <p class="sim-slider-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+              замаскированным под
+              стандартную камеру
             </p>
-            <p class="sim-slider-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать
-              занятия и
-              соблюдать
-              диету.
-            </p>
+            <!-- решил пойти через таблицу -->
             <a class="button" href="#">ПОДРОБНЕЕ </a>
+
             <table border="0" style="border: 1 px;">
               <tr>
+                <th scope="row">технические характеристики </th>
                 <td>
-                  48 часов
+                  800 м
+                </td>
+                <td>
+                  50 м
                 </td>
               </tr>
               <tr>
                 <td>
-                  Без подзарядки
+                  Дальность полета
+                </td>
+                <td>
+                  Радиус поражения
                 </td>
               </tr>
             </table>
-          </div>
-        </li>
-        <!-- это был второй контейнер -->
-        <li>
-          <div class="sim-slider">
-            <!-- фоновую картинку с палкой и номером 03 обыграем в стиле секции с background-image  -->
-            <p class="visually-hidden">Здоровенная селфи-палка</p>
-            <p class="sim-slider-title">Делай селфи,как Бен Стиллер!
-            </p>
-            <p class="sim-slider-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь,
-              Карл!)
-              метров
-              длиной и весом всего 5 кг.
-            </p>
-            <a class="button" href="#">ПОДРОБНЕЕ </a>
-            <table border="0" style="border: 1 px;">
-              <tr>
-                <td>
-                  8,5 м
-                </td>
-                <td>
-                  5 кг
-                </td>
-                <td>
-                  Карбон
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  Длина палки
-                <td>
-                  Вес палки
-                </td>
-                <td>
-                  Материал
-                </td>
-              </tr>
-            </table>
-          </div>
-        </li>
-        <!-- это был третий контейнер  -->
-      </ul>
-      <div class="sim-slider-arrow-left"></div>
-      <div class="sim-slider-arrow-right"></div>
-      <div class="sim-slider-dots"></div>
-    </div>
-    <!-- Стрелки и индикаторные точки располагаются абсолютным позиционированием в соответствующих контейнерах.
+
+          </li>
+          <!-- это был первый контейнер -->
+          <li>
+            <div class="sim-slider">
+
+              <p class="visually-hidden">Красивый фитнесбраслет</p>
+              <img class="slider-image" src="#" alt="Красивый и современный фитнесбраслет.">
+              <h2 class="sim-slider-title">Худеем
+                правильно!
+              </h2>
+              <p class="sim-slider-description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать
+                занятия и
+                соблюдать
+                диету.
+              </p>
+              <a class="button" href="#">ПОДРОБНЕЕ </a>
+              <table border="0" style="border: 1 px;">
+                <tr>
+                  <th scope="row">технические характеристики</th>
+                  <td>
+                    48 часов
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Без подзарядки
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </li>
+
+          <li>
+            <div class="sim-slider">
+
+              <p class="visually-hidden">Здоровенная селфи-палка</p>
+              <img class="slider-image" src="#" alt="Очень длинная селфи-палка.">
+              <h2 class="sim-slider-title">Делай селфи,как Бен Стиллер!
+              </h2>
+              <p class="sim-slider-description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь,
+                Карл!)
+                метров
+                длиной и весом всего 5 кг.
+              </p>
+              <a class="button" href="#">ПОДРОБНЕЕ </a>
+              <table border="0" style="border: 1 px;">
+                <tr>
+                  <th scope="row">технические характеристики</th>
+                  <td>
+                    8,5 м
+                  </td>
+                  <td>
+                    5 кг
+                  </td>
+                  <td>
+                    Карбон
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Длина палки
+                  <td>
+                    Вес палки
+                  </td>
+                  <td>
+                    Материал
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </li>
+          <!-- это был третий контейнер  -->
+        </ul>
+        <div class="sim-slider-arrow-left"></div>
+        <div class="sim-slider-arrow-right"></div>
+        <div class="sim-slider-dots"></div>
+      </div>
+      <!-- Стрелки и индикаторные точки располагаются абсолютным позиционированием в соответствующих контейнерах.
       Для стрелок используются рисунки в виде треугольных скобок
       Экран предотвращает схлопывание внешнего контейнера.
       Всем изображениям присваивается CSS-свойство opacity: 0,
@@ -229,7 +233,7 @@
       Тем самым видимый элемент становится невидимым,
       а невидимый видимым
       Плавность перехода создаёт свойство transition с длительностью 1с и функцией перехода ease-in. -->
-    <main class="main-index">
+
       <nav class="selection">
         <ul class="selection-list">
           <li class="selection-item">
@@ -407,9 +411,9 @@
     <!-- Приступаем к разметке футора  -->
     <footer class="page-footer">
       <section class="footer-contacts">
+        <img class="logo" src="images/other/logo-red.svg" width="147" height="36" height="36" alt="Логотип Девайс».">
         <h2 class="visually-hidden">Контакты</h2>
         <address>
-          <img class="logo" src="images/other/logo-red.svg" width="147" height="36" height="36" alt="Логотип Девайс».">
           <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
 
         </address>

@@ -18,9 +18,9 @@
       <form class="appointment-form" action="#" method="get">
         <label class="visually-hidden" for="search-form-input"> Ведите название товаров</label>
         <input type="text" id="search-form-input" name="search-input" placeholder="Поиск по сайту">
-        <button class="button" type="button search-button">Найти </button>
+        <button class="button" type="button">Найти </button>
         <a href="#">
-          <img class="enter" href="">Вход
+          <img class="enter" src="#" alt="Кнопка входа">Вход
         </a>
 
       </form>
@@ -33,23 +33,23 @@
       <button class="button" type="button"> Корзина
       </button>
 
-      <dl class="item">
-        <div class="item-card">
-          <img class="" src="" width="39" height="" alt="Товар один">
+      <ul class="item">
+        <li class="item-card">
+          <img class="item-1" src="#" alt="Селфи палка любительская">
           <p class="items">Любительская селфи-палка</p>
           <button type="button">
             <span class="visually-hidden">Удалить товар</span>
           </button>
-        </div>
+        </li>
 
-        <div class="item-card">
-          <img class="" src="" width="39" height="43" alt="Товар один">
+        <li class="item-card">
+          <img class="item-1" src="#" alt="Селфи палка профессиональная">
           <p class="items">Профессиональная селфи-палка</p>
           <button type="button">
             <span class="visually-hidden">Удалить товар</span>
           </button>
-        </div>
-      </dl>
+        </li>
+      </ul>
       <div class="annotation">
         <span class="annotation-one">
           Товаров: 2
@@ -76,7 +76,10 @@
                   <li>
                     <a href="catalog.html">Моноподы для cелфи</a>
                   </li>
-                  <li href="#">Экшн-камеры</li>
+                  <li>
+                    <a href="#">Экшн-камеры </a>
+
+                  </li>
                 </ul>
                 <ul class="catalog-menu-list column-2">
                   <li>
@@ -125,9 +128,18 @@
             <!-- решил пойти через таблицу -->
             <a class="button" href="#">ПОДРОБНЕЕ </a>
 
-            <table border="0" style="border: 1 px;">
+            <table>
+              <caption class="visually-hidden">технические характеристики</caption>
               <tr>
-                <th scope="row">технические характеристики </th>
+                <th>
+                  Дальность полета
+                </th>
+                <th>
+                  Радиус поражения
+                </th>
+              </tr>
+              <tr>
+
                 <td>
                   800 м
                 </td>
@@ -135,14 +147,7 @@
                   50 м
                 </td>
               </tr>
-              <tr>
-                <td>
-                  Дальность полета
-                </td>
-                <td>
-                  Радиус поражения
-                </td>
-              </tr>
+
             </table>
 
           </li>
@@ -161,9 +166,10 @@
                 диету.
               </p>
               <a class="button" href="#">ПОДРОБНЕЕ </a>
-              <table border="0" style="border: 1 px;">
+              <table>
+                <caption class="visually-hidden">технические характеристики</caption>
                 <tr>
-                  <th scope="row">технические характеристики</th>
+
                   <td>
                     48 часов
                   </td>
@@ -190,9 +196,10 @@
                 длиной и весом всего 5 кг.
               </p>
               <a class="button" href="#">ПОДРОБНЕЕ </a>
-              <table border="0" style="border: 1 px;">
+              <table>
+                <caption class="visually-hidden">технические характеристики</caption>
                 <tr>
-                  <th scope="row">технические характеристики</th>
+
                   <td>
                     8,5 м
                   </td>
@@ -238,42 +245,42 @@
         <ul class="selection-list">
           <li class="selection-item">
             <a href="#">
-              <img src="images/sections/virtual-reality.png" width="160" height="160" alt="Виртуальная реальность">
+              <img src="images/sections/virtual-reality.png" alt="Виртуальная реальность">
               <p>Виртуальная реальность
               </p>
             </a>
           </li>
           <li class="selection-item">
             <a href="#">
-              <img src="images/sections/monopods.png" width="160" height="160" alt="Моноподы для селфи">
+              <img src="images/sections/monopods.png" alt="Моноподы для селфи">
               <p>Моноподы для селфи
               </p>
             </a>
           </li>
           <li class="selection-item">
             <a href="#">
-              <img src="images/sections/action-cameras.png" width="160" height="160" alt="Экшн-камеры">
+              <img src="images/sections/action-cameras.png" alt="Экшн-камеры">
               <p>Экшн-камеры
               </p>
             </a>
           </li>
           <li class="selection-item">
             <a href="#">
-              <img src="images/sections/fitness-bracelets.png" width="160" height="160" alt="Фитнес-браслеты">
+              <img src="images/sections/fitness-bracelets.png" alt="Фитнес-браслеты">
               <p>Фитнес-браслеты
               </p>
             </a>
           </li>
           <li class="selection-item">
             <a href="#">
-              <img src="images/sections/smart-watch.png" width="160" height="160" alt="Умные часы">
+              <img src="images/sections/smart-watch.png" alt="Умные часы">
               <p>Умные часы
               </p>
             </a>
           </li>
           <li class="selection-item">
             <a href="#">
-              <img src="images/sections/quadcopters.png" width="160" height="160" alt="Квадрокоптеры">
+              <img src="images/sections/quadcopters.png" alt="Квадрокоптеры">
               <p>Квадрокоптеры
               </p>
             </a>
@@ -329,7 +336,7 @@
       </div>
       <div>
         <button class="button">
-          <p class="visually">Доставим редкий товар под заказ,</p>
+          <span class="visually">Доставим редкий товар под заказ,</span>
 
         </button>
         <button class="button">
@@ -371,7 +378,8 @@
           <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
         </address>
         <h3 class="contacts-subtitle">Время работы</h3>
-        <table border="0" style="border: 1 px;">
+        <table>
+          <caption class="visually-hidden">время работы</caption>
           <tr>
             <td>
               пн—пт:
@@ -404,14 +412,14 @@
           <label class="form-label" for="appointment-mail">Напишите свой e-mail</label>
           <input type="email" id="appointment-mail" name="appointment-mail" placeholder="Ваш e-mail">
           <button class="button" type="submit">Подписаться </button>
-          <p class="contacts-address-text">Это бесплатно </p>
+          <span class="contacts-address-text">Это бесплатно </span>
         </form>
       </section>
     </main>
     <!-- Приступаем к разметке футора  -->
     <footer class="page-footer">
       <section class="footer-contacts">
-        <img class="logo" src="images/other/logo-red.svg" width="147" height="36" height="36" alt="Логотип Девайс».">
+        <img class="logo" src="images/other/logo-red.svg" alt="Логотип Девайс».">
         <h2 class="visually-hidden">Контакты</h2>
         <address>
           <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
@@ -519,7 +527,7 @@
     <!-- <button class="button" type="submit">Отправить</button>
           </form>
         </div>
-      </div> --> -->
+      </div> -->
     <!-- </div> -->
   </body>
 

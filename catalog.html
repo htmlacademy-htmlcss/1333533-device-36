@@ -11,17 +11,28 @@
     <header class="main-header">
       <!-- обернул в ссылку логотип -->
       <h1 class="visually-hidden">Девайс</h1>
-      <a href="#">
-        <img class="logo" src="images/other/logo-black (1).svg" alt="Логотип Девайс»">
+      <a href="index.html">
+        <img class="logo" src="images/other/logo-black.svg" alt="Логотип Девайс»">
 
       </a>
       <form class="appointment-form" action="#" method="get">
         <label class="visually-hidden" for="search-form-input"> Введите название товара</label>
         <input type="text" id="search-form-input" name="search-input" placeholder="Поиск по сайту">
         <button class="button" type="button">Найти </button>
-        <a href="#">
-          <img class="enter" src="#" alt="Имя авторизованного пользователя"> Коля Петухов
-        </a>
+
+        <ul class="user">
+          <li class="user-item">
+            <a href="#">
+              Коля Петухов
+            </a>
+          </li>
+          <li class="user-item">
+            <a href="#">
+              Выйти
+            </a>
+          </li>
+        </ul>
+
       </form>
       <div>
         <a class="compare" href="compare.html">Сравнить</a>
@@ -210,7 +221,7 @@
         <ul class="product-list">
           <li class="product-card">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="images/catalog/product-2.png" width="360" height="380"
+              <img class="product-card-image" src="images/catalog/amateur-selfie-stick.jpg" width="360" height="380"
                 alt="Селфи палка любительская">
               <h3 class="product-card-title">Любительская селфи-палка</h3>
             </a>
@@ -219,8 +230,8 @@
           </li>
           <li class="product-card">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="images/catalog/product.png" width="360" height="380"
-                alt="Профессиональная селфи-палка">
+              <img class="product-card-image" src="images/catalog/professional-selfie-stick.jpg" width="360"
+                height="380" alt="Профессиональная селфи-палка">
               <h3 class="product-card-title">Профессиональная селфи-палка</h3>
             </a>
             <span class="product-card-price">1 500 ₽</span>
@@ -228,7 +239,8 @@
           </li>
           <li class="product-card">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="images/catalog/product-3.png" width="360" height="380" alt="Непотопляемая
+              <img class="product-card-image" src="images/catalog/unsinkable-selfie-stick.jpg" width="360" height="380"
+                alt="Непотопляемая
                 селфи-палка">
               <h3 class="product-card-title">Непотопляемая
                 селфи-палка</h3>
@@ -238,7 +250,7 @@
           </li>
           <li class="product-card">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="images/catalog/product-4.png" width="360" height="380"
+              <img class="product-card-image" src="images/catalog/follow-selfie-stick.jpg" width="360" height="380"
                 alt="Селфи-палка Следуй за мной">
               <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
             </a>
@@ -248,15 +260,15 @@
 
         </ul>
         <button class="button pagination-show-more" type="button">Загрузить ещё</button>
-        <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-back ">
-              <span class="visually-hidden"> Назад
 
-              </span>
-            </a>
-          </li>
-        </ul>
+
+        <a class="pagination-link pagination-back" href="#">
+          <span class="visually-hidden"> Назад
+
+          </span>
+        </a>
+
+
         <ul class="pagination">
 
           <li class="pagination-item">
@@ -276,13 +288,13 @@
           </li>
 
         </ul>
-        <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-next" href="#">
-              <span class="visually-hidden">Вперед</span>
-            </a>
-          </li>
-        </ul>
+
+
+        <a class="pagination-link pagination-next" href="#">
+          <span class="visually-hidden">Вперед</span>
+        </a>
+
+
 
 
 
@@ -291,7 +303,9 @@
 
     <footer class="page-footer">
       <section class="footer-contacts">
-        <img class="logo" src="images/other/logo-red (3).svg" alt="Логотип Девайс».">
+        <a href="index.html">
+          <img class="logo" src="images/other/logo-red.svg" alt="Логотип Девайс».">
+        </a>
         <h2 class="visually-hidden">Контакты</h2>
         <address>
           <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>

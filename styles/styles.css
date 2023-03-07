@@ -34,32 +34,295 @@ body {
   font-size: 18px;
   line-height: 30px;
   color: #444444;
-  background-color: ffffff;
+  background-color: #ffffff;
 
 }
 
 .main-header {
-  color: #000000;
+
   background: #ffe17f;
 }
 
 .appointment-form {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
-  line-height: 20px;
   color: #000000;
-
   opacity: 0.3;
 }
 
-.appointment-form a {
-  font-family: 'Rubik';
+.search {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  text-align: center;
   color: #000000;
+}
+
+.button {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.compare {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
+}
+
+.basket {
+  font-family: 'Rubik',
+    sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.item-card {
+  background: #000000;
+}
+
+.items {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.annotation {
+  background: #1A1A1A;
+}
+
+.annotation-one {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.annotation-two {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.button-basket {
+  background: #FFFFFF;
+  font-family: 'Raleway',
+    sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.button-secondmenu {
+  font-family: 'Raleway',
+    sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.catalog-menu {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.catalog-menu a {
+  color: #000000;
+}
+
+.secondmenu-link {
+  font-family: 'Raleway',
+    sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  color: #000000;
+}
+
+.sim-slider-title {
+  font-family: 'Raleway',
+    sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.sim-slider-description {
+  font-family: 'Rubik',
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+}
+
+.button-sim-slider-description {
+  font-family: 'Raleway',
+    sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  color: #000000;
+}
+
+table th {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+}
+
+table td {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.selection-item a {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  color: #000000;
+}
+
+.sim-slider .button {}
+
+.visually {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.visually-1 {
+  font-style: normal;
+  font-weight: 400;
+  color: #444444;
+}
+
+.button-rare-commodity {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.about-title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.about-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #444444;
+}
+
+.contacts-subtitle {
+  font-style: normal;
+  font-size: 24px;
+  color: #444444;
+}
+
+.contacts-address-text {
+  font-style: normal;
+  font-weight: 400;
+  color: #444444;
+}
+
+.transport-link {
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000000;
+}
+
+.button-b {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  color: #000000;
+}
+
+.working-days {
+  font-size: 18px;
+  color: #444444;
+}
+
+.time {
+  font-size: 18px;
+  color: #444444;
+}
+
+input {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+  opacity: 0.5;
+}
+
+.button-subscribe {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+  color: #000000;
+}
+
+.page-footer {
+  background: #444444;
+}
+
+.contacts-address-text-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.secondmenu-footer {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.contacts-phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
 }

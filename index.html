@@ -19,19 +19,21 @@
       <form class="appointment-form" action="#" method="get">
         <label class="visually-hidden" for="search-form-input"> Ведите название товаров</label>
         <input type="text" id="search-form-input" name="search-input" placeholder="Поиск по сайту">
-        <button class="button" type="button">Найти </button>
-        <a href="#">
-          Войти
-        </a>
 
       </form>
+      <a class="search" href="#">
+        Войти
+      </a>
+      <button class="button" type="button">Найти
+
+      </button>
 
       <a class="compare" href="compare.html">Сравнить</a>
 
       <!-- Делаем кнопку корзины -->
 
       <span id="Number">2</span>
-      <button class="button" type="button"> Корзина
+      <button class="basket" type="button"> Корзина
       </button>
 
       <ul class="item">
@@ -39,7 +41,7 @@
           <img class="item-1" src="images/basket/amateur-selfie-stick.jpg" width="39" height="43"
             alt="Селфи палка любительская">
           <p class="items">Любительская селфи-палка</p>
-          <button type="button">
+          <button class="button" type="button">
             <span class="visually-hidden">Удалить товар</span>
           </button>
         </li>
@@ -48,7 +50,7 @@
           <img class="item-1" src="images/basket/professional-selfie-stick.jpg" width="39" height="43"
             alt="Селфи палка профессиональная">
           <p class="items">Профессиональная селфи-палка</p>
-          <button type="button">
+          <button class="button" type="button">
             <span class="visually-hidden">Удалить товар</span>
           </button>
         </li>
@@ -61,7 +63,7 @@
           Сумма: 2000 ₽
         </span>
 
-        <button type="button">Открыть корзину</button>
+        <button class="button-basket" type="button">Открыть корзину</button>
 
       </div>
 
@@ -69,7 +71,7 @@
         <nav class="secondmenu">
           <ul class="secondmenu-list">
             <li class="secondmenu-item">
-              <button class="button">Каталог товаров</button>
+              <button class="button-secondmenu">Каталог товаров</button>
 
               <div class="catalog-menu">
                 <ul class="catalog-menu-list column-1">
@@ -100,7 +102,7 @@
               </div>
             </li>
             <li class="secondmenu-item">
-              <a class="secondmenu-link" href="guarantee.html">Доставка</a>
+              <a class="secondmenu-link" href="delivery.html">Доставка</a>
             </li>
             <li class="secondmenu-item">
               <a class="secondmenu-link" href="guarantee.html">Гарантия</a>
@@ -130,7 +132,7 @@
               стандартную камеру
             </p>
             <!-- решил пойти через таблицу -->
-            <a class="button" href="#">ПОДРОБНЕЕ </a>
+            <a class="button-sim-slider-description" href="#">ПОДРОБНЕЕ </a>
 
             <table>
               <caption class="visually-hidden">технические характеристики</caption>
@@ -170,7 +172,7 @@
                 соблюдать
                 диету.
               </p>
-              <a class="button" href="#">ПОДРОБНЕЕ </a>
+              <a class="button-sim-slider-description" href="#">ПОДРОБНЕЕ </a>
               <table>
                 <caption class="visually-hidden">технические характеристики</caption>
                 <tr>
@@ -202,7 +204,7 @@
                 метров
                 длиной и весом всего 5 кг.
               </p>
-              <a class="button" href="#">ПОДРОБНЕЕ </a>
+              <a class="button-sim-slider-description" href="#">ПОДРОБНЕЕ </a>
               <table>
                 <caption class="visually-hidden">технические характеристики</caption>
                 <tr>
@@ -343,11 +345,11 @@
         </ul>
       </div>
       <div>
-        <button class="button">
-          <span class="visually">Доставим редкий товар под заказ,</span>
+        <button class="button-rare-commodity" type="button">
+          <span class="visual">Доставим редкий товар под заказ</span>
 
         </button>
-        <button class="button">
+        <button class="button-i" type="button">
           i
         </button>
       </div>
@@ -371,7 +373,7 @@
             <a class="transport-link" href="#">ТоксБерри</a>
           </li>
         </ul>
-        <a class="button" href="#">ПОДРОБНЕЕ О НАС</a>
+        <a class="button-b" href="#">ПОДРОБНЕЕ О НАС</a>
 
 
       </section>
@@ -389,27 +391,26 @@
         <table>
           <caption class="visually-hidden">время работы</caption>
           <tr>
-            <th>
+            <th class="working-days">
               пн—пт:
             </th>
-            <td>
+            <td class="time">
               с 10:00 до 22:00
             </td>
           </tr>
           <tr>
-            <th>
+            <th class="working-days">
               сб—вс:
             </th>
-            <td>
+            <td class="time">
               10:00 до 19:00
             </td>
 
           </tr>
         </table>
 
-        <!-- <p class="contacts-address-text">пн—пт: с 10:00 до 22:00 </p>
-        <p class="contacts-address-text">сб—вс: с 10:00 до 19:00</p> -->
-        <a class="button" href="#">Напишите нам</a>
+
+        <a class="button-b" href="#">Напишите нам</a>
       </section>
       <section class="contacts">
         <h2 class="about-title">Подпишитесь
@@ -420,10 +421,10 @@
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="form-label" for="appointment-mail">Напишите свой e-mail</label>
           <input type="email" id="appointment-mail" name="appointment-mail" placeholder="Ваш e-mail">
-          <button class="button" type="submit">Подписаться </button>
-          <span class="contacts-address-text">Это бесплатно </span>
         </form>
       </section>
+      <button class="button-subscribe" type="submit">Подписаться </button>
+      <span class="contacts-address-text">Это бесплатно </span>
     </main>
     <!-- Приступаем к разметке футора  -->
     <footer class="page-footer">
@@ -433,7 +434,7 @@
         </a>
         <h2 class="visually-hidden">Контакты</h2>
         <address>
-          <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <p class="contacts-address-text-1">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
 
         </address>
       </section>
@@ -441,13 +442,13 @@
         <h2 class="visually-hidden">Доставка Гарантия Контакты</h2>
         <ul class="secondmenu-item">
           <li class="secondmenu-item">
-            <a class="secondmenu-link" href="Delivery.html">Доставка</a>
+            <a class="secondmenu-footer" href="Delivery.html">Доставка</a>
           </li>
           <li class="secondmenu-item">
-            <a class="secondmenu-link" href="Guarantee.html">Гарантия</a>
+            <a class="secondmenu-footer" href="Guarantee.html">Гарантия</a>
           </li>
           <li class="secondmenu-item">
-            <a class="secondmenu-link" href="Contacts.html">Контакты</a>
+            <a class="secondmenu-footer" href="Contacts.html">Контакты</a>
           </li>
         </ul>
       </section>
@@ -473,8 +474,9 @@
       </section>
 
 
-      <section class="footer-social"><a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-        <p class="about-text"> <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+      <section class="footer-social-contakt">
+        <a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        <p class="link-htmlacademy"> <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
       </section>
     </footer>
     <!-- Теперь пропишем выпадающее меню редкого товара заказа -->
